@@ -1,0 +1,221 @@
+#pikcher2 {
+    display: flex;
+    margin-top: 5%;
+    height: 80vh;
+    width: 100%;
+    direction: ltr;
+    justify-content: space-between;
+}
+
+#r {
+    width: 50vw;
+    height: 59vh;
+}
+
+#כיתוב {
+    color: white;
+    margin-right: 5%;
+    margin-top: 0%;
+    direction: rtl;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-size: 115%;
+}
+
+#kesher {
+    border: solid yellow 3px;
+    border-radius: 17px 17px 17px 17px;
+    width: 30%;
+    text-align: center;
+}
+
+kesher:hover {
+    color: cornflowerblue;
+}
+
+h1 {
+    color: yellow;
+}
+
+#all {
+    color: white;
+    display: flex;
+    margin-top: 1%;
+    direction: rtl;
+}
+
+.class {
+    border-left: 3px groove yellow;
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    padding: 6%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 0%;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+#foter {
+    background-image: url("AdobeStock_386665945_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 15%;
+    display: flex;
+    margin-top: 5%;
+}
+
+#im {
+    width: 98.9vw;
+    height: 84vh;
+}
+
+#j,
+#j2,
+#m,
+#p {
+    width: 30vw;
+    background-color: black;
+    opacity: 0.7;
+    margin: 2%;
+    text-align: center;
+    color: white;
+    border-radius: 10% 10% 10% 10%;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 5px white double;
+    padding-bottom: 2%;
+    
+
+}
+
+
+#m:hover{
+    transition: 1.5s;
+    width: 20vw;
+
+}#j2:hover{  transition: 1.5s;
+    width: 20vw;}
+#p:hover{
+    transition: 1.5s;
+    width: 20vw;
+}#j:hover{
+    transition: 1.5s;
+    width: 20vw;
+}
+
+
+#h {
+    color: white;
+}
+
+@media only screen and (max-width:1002px) {
+    #kesher{
+        border: solid yellow 1px;
+        border-radius: 17px 17px 17px 17px;
+        width: 10%;
+        text-align: center;
+      
+     }#o{
+        font-size: smaller;
+     }
+    
+
+
+    #pikcher2 {
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    #כיתוב {
+        flex-direction: column;
+
+    }
+
+    #all {
+        margin-top: 50%;
+        flex-direction: column;
+        margin-bottom: 15%;
+    }
+
+    #r {
+        width: 100%;
+    }
+
+    #foter {
+        margin-top: 100%;
+        flex-direction: column;
+        margin-top: 80%;
+        background-image: none;
+
+    }
+
+    .foter {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/* #kesher {
+    margin-top: 350%;
+} */
+
+/* #i {
+    width: 0%;
+} */
+
+@media only screen and (max-width:1245px) {
+
+ #kesher{
+    border: solid yellow 1px;
+    border-radius: 17px 17px 17px 17px;
+    width: 10%;
+    text-align: center;
+  
+ }#o{
+    font-size: smaller;
+ }
+
+@media only screen and (max-width:459px) {
+    
+    #kesher{
+        border: solid yellow 1px;
+        border-radius: 17px 17px 17px 17px;
+        width: 10%;
+        text-align: center;
+      
+     }#o{
+        font-size: smaller;
+     }
+        
+   
+
+    #כיתוב {
+        font-size: smaller;
+    }
+
+    #foter {
+        margin-bottom: 220%;
+
+    }
+
+    h1 {
+        font-size: small;
+    }
+
+    a {
+        font-size: smaller;
+    }
+
+    nav {
+        font-size: smaller;
+    }#im{
+        width:100%;
+        height: 45vh;
+    }
+
+}}

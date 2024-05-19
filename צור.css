@@ -1,0 +1,133 @@
+ .s{
+    border:2px  yellow ;
+    background-color:white;
+    width: 23%;
+    text-align: center;
+    margin-right: 5%;
+    height: 60vh;
+    margin: 1%;
+border-radius: 10px 10px 10px 10px;
+
+
+}#pok{
+ 
+
+ 
+}.s:hover{
+    transition: 1.5s;
+    width: 20vw;
+ 
+}
+.w{
+    width:70px;
+margin-top: 10%;}
+#f{
+    width: 100%;
+    height:85vh;
+}.h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+text-align: center;
+margin-top:10%;}
+/* }.s:hover{
+ opacity: 0.6; */
+
+#o{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: yellow;
+
+}#g{
+    display: flex;
+    /* background-color: antiquewhite;} */}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}#i{
+    color: yellow;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}input{
+    width:40%;
+margin: 0.5%;
+ height:10vh;
+background-color: black;
+border: 2px solid yellow;
+
+}form{
+    margin-right: 13%;
+ }::placeholder{
+    font-size: 40px;
+color: yellow;
+
+
+}#z{
+    width: 82.4%;
+    color: yellow;
+    font-size: 40px;
+} input:hover{
+    background-color: white;
+
+}
+   
+placeholder:hover{
+    color: black;
+}#c{
+    font-size: 40px;
+}#j{
+    width:60px;
+    margin-top: 10%;
+}#a{
+    
+}#q{
+    width: 0%;
+} @media only screen and (max-width:1400px){
+  #f{
+    width: 80%;
+    height: 60vh;
+
+  }
+  #i{
+    font-size: 15px;}
+} 
+ 
+     
+ 
+  @media only screen and (max-width:1010px){
+    #f{
+      width:98vw;
+      height: 40vh;
+    }#i{
+        font-size:7px;
+       
+    }#p{
+        font-size: 15px;
+    }#z{
+        font-size: 15px; 
+    }.h1{
+        font-size:15px; 
+    }p{
+        font-size:10px; 
+    }.s{
+        width: 90%;
+        margin-right: 5%;
+    }
+  
+    #g{
+       flex-direction: column;
+    }::placeholder{
+        font-size: 10px;
+
+        
+      }#z{
+width: 93%;
+      }#a{
+       
+      }
+ 
+}
+    
+
+ 
